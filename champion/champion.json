@@ -1,0 +1,25 @@
+{
+  "trial": 0,
+  "params": {
+    "learning_rate": 0.06671705431454042,
+    "num_leaves": 127,
+    "min_data_in_leaf": 250,
+    "feature_fraction": 0.8460628693313881,
+    "lambda_l2": 1.1890003846505752,
+    "robust_delta": 0.6543989154368428,
+    "objective": "huber",
+    "d_model": 64,
+    "n_heads": 4,
+    "dropout": 0.05078922608788992,
+    "tft_lr": 0.003912808684011346,
+    "lookback": 60
+  },
+  "val_score": 0.5199172189620455,
+  "test_score": 0.516454009189957,
+  "test_mae": 0.5629851745834843,
+  "test_acc": 0.686124661574109,
+  "n_sessions": 500,
+  "promoted_at": "2026-09-02 00:52:52.438325-04:00",
+  "node": "laptop",
+  "pushed_at": "2026-09-02 04:52:53.156307+00:00"
+}
