@@ -1,0 +1,14 @@
+# SINUS run  2026-09-04 10:22:02.308028-04:00
+# input      SINUS_2026-09-04_1017b.md
+[polygon] spot 773.17 (from quote endpoint)
+[polygon] SPY 2026-09-04: 490 contracts -> 30 strikes within +/-15
+[polygon] 2/60 in-band contracts had no gamma
+[polygon] GEX populated on 30/30 strikes
+[serve] physics-only (no champion yet)
+SPY 773.17 · 338m to close · positive_gamma · zero-γ 770.90 · max pain 770.00
+ 5m: 773.17 ■ (+0.00) conf 0.95 | lgb 0.00 cat 0.00 tft 0.00 phys 1.00
+15m: 773.19 ■ (+0.02) conf 0.95 | lgb 0.00 cat 0.00 tft 0.00 phys 1.00
+30m: 773.21 ■ (+0.04) conf 0.95 | lgb 0.00 cat 0.00 tft 0.00 phys 1.00
+ 1h: 773.20 ■ (+0.03) conf 0.95 | lgb 0.00 cat 0.00 tft 0.00 phys 1.00
+eod: 772.69 ▼ (-0.48) conf 0.95 | lgb 0.00 cat 0.00 tft 0.00 phys 1.00
+📌 EOD Pin Call: 772.69 · wall 775.00 (pull 0.15, not applied)
