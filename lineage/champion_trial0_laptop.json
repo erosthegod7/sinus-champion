@@ -1,0 +1,36 @@
+{
+  "trial": 0,
+  "params": {
+    "learning_rate": 0.06671705431454042,
+    "num_leaves": 127,
+    "min_data_in_leaf": 250,
+    "feature_fraction": 0.8460628693313881,
+    "lambda_l2": 1.1890003846505752,
+    "robust_delta": 0.6543989154368428,
+    "objective": "huber",
+    "d_model": 64,
+    "n_heads": 4,
+    "dropout": 0.05078922608788992,
+    "tft_lr": 0.003912808684011346,
+    "lookback": 60
+  },
+  "val_score": 0.48790021915378956,
+  "test_score": 0.49299677249066465,
+  "test_mae": 0.5399251148075426,
+  "test_acc": 0.6877133692675117,
+  "n_sessions": 502,
+  "promoted_at": "2026-09-05 01:20:54.229128-04:00",
+  "n_features": 0,
+  "feature_set": "v2",
+  "horizons": [
+    "5m",
+    "10m",
+    "20m",
+    "40m",
+    "60m",
+    "eod"
+  ],
+  "has_scaler": true,
+  "node": "laptop",
+  "pushed_at": "2026-09-05 05:20:55.009852+00:00"
+}
