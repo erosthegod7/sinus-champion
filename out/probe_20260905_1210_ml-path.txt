@@ -1,0 +1,15 @@
+# SINUS run  2026-09-05 12:10:58.265048-04:00
+# input      probe_20260905_1210_ml-path.md
+[live] champion trial 0 ran on bar 2026-09-04 16:00:00-04:00 · 251 features · experts ['lgb', 'cat', 'tft_q50']
+[serve] physics-only (live window failed: RuntimeError: no contracts for SPY 2026-09-05 - holiday, or no expiry that date)
+
+--- run failed ---
+Traceback (most recent call last):
+  File "/app/sinus_inbox.py", line 133, in _run_model
+    sd.serve(SYMBOL, work_dir=work_dir)
+  File "/app/sinus_daemon.py", line 420, in serve
+    lad, spot_px, _ = fetch_snapshot_ladder(symbol, spot=spot)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/sinus.py", line 2846, in fetch_snapshot_ladder
+    raise RuntimeError(f"no contracts for {underlying} {exp} - holiday, or no expiry that date")
+RuntimeError: no contracts for SPY 2026-09-05 - holiday, or no expiry that date
