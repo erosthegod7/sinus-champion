@@ -1,0 +1,1 @@
+probe: v4 champion trial 0 is on the remote — serve() should accept it and enter predict_live (weekend: expect it to fail at the live window, not at the gate)
