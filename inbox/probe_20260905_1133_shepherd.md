@@ -1,0 +1,1 @@
+shepherd probe after v3 deploy 7dffc708 — expected on a Saturday: v2 champion refused, physics fallback, no 0DTE contracts
