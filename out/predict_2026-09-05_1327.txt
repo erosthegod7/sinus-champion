@@ -1,0 +1,5 @@
+# SINUS run  2026-09-05 13:27:40.686372-04:00
+# input      predict
+[live] champion trial 0 ran on bar 2026-09-04 16:00:00-04:00 · 251 features · experts ['lgb', 'cat', 'tft_q50']
+[serve] physics-only (live window failed: RuntimeError: no contracts for SPY 2026-09-05 - holiday, or no expiry that date)
+[serve] no options ladder (RuntimeError: no contracts for SPY 2026-09-05 - holiday, or no expiry that date) — market closed? nothing to serve
