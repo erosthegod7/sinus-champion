@@ -1,0 +1,18 @@
+# SINUS run  2026-09-05 12:07:40.640795-04:00
+# input      probe_20260905_1207_v4-champion.md
+[polygon] rate limited, sleeping 1s
+[polygon] rate limited, sleeping 2s
+[polygon] rate limited, sleeping 4s
+[polygon] rate limited, sleeping 8s
+[serve] physics-only (live window failed: RuntimeError: rate limited after retries)
+
+--- run failed ---
+Traceback (most recent call last):
+  File "/app/sinus_inbox.py", line 133, in _run_model
+    sd.serve(SYMBOL, work_dir=work_dir)
+  File "/app/sinus_daemon.py", line 420, in serve
+    lad, spot_px, _ = fetch_snapshot_ladder(symbol, spot=spot)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/sinus.py", line 2846, in fetch_snapshot_ladder
+    raise RuntimeError(f"no contracts for {underlying} {exp} - holiday, or no expiry that date")
+RuntimeError: no contracts for SPY 2026-09-05 - holiday, or no expiry that date
